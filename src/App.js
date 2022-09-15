@@ -7,6 +7,7 @@ import Auth from './components/Auth'
 import GetDigitsSum from './components/Additional functions'
 import Event from './components/Button'
 import Clock from './components/Clock'
+import Light from './components/Light'
 
 function App() {
   return (
@@ -18,11 +19,10 @@ function App() {
       <Auth />
       <GetDigitsSum />
       <Event />
-      <div id="flex">
-        <p>Hi</p>
-        <p>Hi</p>
-        <p>Hi</p>
+      <div>
+        <p>Turn on the light</p>
       </div>
+      <Light />
     </div>
   )
 }
